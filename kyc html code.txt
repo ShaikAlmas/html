@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYC FORM</title>
+<link rel="icon" href="/photos/th.jpeg">
+<style>
+    table,th,tr,td{
+        border-collapse: collapse;
+        padding: 5px;
+    }
+</style>
+</head>
+<body>
+    <div align="center">
+        <h1>Customer Information</h1>
+        <form name="KYC" method="post">
+        <table>
+            <tbody>
+                <tr>
+                    <td><label>FULL NAME</label></td>
+                    <td><input type="text" name="full name" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td><label>DATE OF BIRTH</label></td>
+                    <td><input type="date" name="DATE OF BIRTH"></td>
+                </tr>
+                <tr>
+                    <td><label>GENDER</label></td>
+                    <td>
+                        <input type="radio" name="gender type" value="male">MALE
+                    <input type="radio" name="gender type" value="female">FEMALE
+                    <input type="radio" name="gender type" value="other">OTHER
+                </td>
+                </tr>
+                <td><label>MARITAL STATUS</label></td>
+                <td>
+                    <input type="radio" name="MARITAL STATUS" value="SINGLE">SINGLE
+                    <input type="radio" name="MARITAL STATUS" value="MARRIED">MARRIED
+                    <input type="radio" name="MARITAL STATUS" value="DIVORCED">DIVORCED
+                </td>
+                </tr>
+                <tr>
+                    <td><label>NATIONALITY</label></td>
+                    <td><input type="text" name="NATIONALITY" placeholder="Name of your nation"></td>
+                </tr>
+                <tr>
+                    <td><label>PHONE NUMBER</label></td>
+                    <td><input type="number" name="contact number" placeholder="Enter phone number"></td>
+                </tr>
+                <tr>
+                    <td><lable>E-MAIL ID</lable></td>
+                    <td>
+                        <input type="email" name="email" placeholder="Enter your mail ">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">RESIDENTIAL ADDRESS:-</td>
+                </tr>
+                
+                    <td><label>DOOR.NO</label></td>
+                    <td>
+                        <input type="number" name="door" placeholder="Enter your door number">
+                    </td>
+                    <tr>
+                        <td><label>CITY</label></td>
+                        <td>
+                            <input type="text" name="city" placeholder="Enter your city">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>STATE/PROVINCE</label></td>
+                        <td>
+                            <input type="text" name="state" placeholder="Enter your state">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><lable>PIN-CODE</lable></td>
+                        <td>
+                            <input type="number" name="pincode" placeholder="Enter zipcode">
+                        </td>
+                    </tr>
+            <tr>
+                <td><lable>OCCUPATION</lable></td>
+                <td><input type="text" name="job" placeholder="Enter your occupation"></td>
+            </tr>
+            <tr>
+                <td><label>ANNUL INCOME</label></td>
+                <td>
+                    <input type="number" name="salary" placeholder="Enter your income">
+                </td>
+                <tr>
+                    <td><lable>SOURCE OF INCOME</lable></td>
+                    <td>
+                        <input type="radio" name="income source" value="EMPLOYEMENT">EMPLOYMENT
+                        <input type="radio" name="income source" value="BUSINESS">BUSINESS
+                        <input type="radio" name="income source" value="INVESTMENTS">INVESTMENTS
+                        <input type="radio" name="income source" value="OTHERS">OTHERS
+                    </td>
+                </tr>
+            </tr>
+            <tr>
+                <td><lable>IDENTIFICATION DOCUMENTS</lable></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><label>ID DOCUMENT NUMBER</label></td>
+                <td><input type="number" name="DOCUMENT" placeholder="Enter document number"></td>
+            </tr>
+            <tr>
+                <td><lable>DATE OF ISSUE</lable></td>
+                <td><input type="date"></td>    
+            </tr>
+            <tr>
+                <td><lable>EXPIRATION DATE</lable></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label>PURPOSE OF THE ACCOUNT</label></td>
+                <td><input type="radio" name="ACCOUNT PURPOSE" value="SAVINGS">SAVINGS
+                    <input type="radio" name="ACCOUNT PURPOSE" value="CHECKING">CHECKING
+                    <input type="radio" name="ACCOUNT PURPOSE" value="INVESTMENTS">INVESTMENTS
+                    <input type="radio" name="ACCOUNT PURPOSE" value="OTHERS">OTHERS
+                </td>
+            </tr>
+            <tr>
+                <td><lable>EXPECTED MONTHLY TRANSACTIONS</lable></td>
+                <td><input type="text" name="TRANSACTIONS" placeholder="Enter amount"</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div align="center">
+        <table>
+            <tbody>
+                <h3>DECLARATION AND CONSENT</h3>
+                <p>I hereby declare that the information provided in this form is true and accurate to the best of my knowledge.<br>I understand that providing false information may result in legal consequnces.</p>
+            <tr>
+                <td><label>CUSTOMER SIGNATURE</label></td>
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+        <tr align="center">
+            <td><input type="submit" value="submit"></td>
+            <td><input type="reset" value="cancel"></td>
+        </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
