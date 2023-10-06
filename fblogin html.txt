@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <link rel="icon" href="/media/th.jpeg">
+    <style>
+        table,th,tr,td{
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <form name="facebook login" method="post"></form>
+        <h1 style="color: blue; font-family: Klavika;">facebook</h1>
+        </div>
+            <div align="center" style="padding:10px;">
+            <table>
+            <thead>
+                <tr>
+                <td><input type="number" name="email" placeholder="Mobile number" style="width: 200px; height: 25px;"></td>
+                </tr>
+                <tr>
+                    <td><input type="password" name="password" placeholder="password" style="width: 200px; height: 25px;"></td>
+                </tr>
+                <tr align="center">
+                    <td><input type="submit" value="Login"style="background-color:blue; color: white;width: 210px; height: 30px;"></td>
+                </tr>
+            </thead>
+           </table>  
+            </div>
+            <div align="center">
+                <p><a href=""> Forgotten password?</p></a>
+                <tr>
+                    <input type="button" value="Create new account">
+                </tr>
+            </div>
+    
+</body>
+
+<marquee behavior="alternate" direction="right">Get Facebook for android on playstore now!</marquee>
+</html>
